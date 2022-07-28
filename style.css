@@ -1,0 +1,55 @@
+body {
+    background-image: url("./images/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Varela Round", sans-serif;
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    font-size: 72px;
+}
+
+.image-box {
+    width: 100px;
+    height: 70%;
+    display: block;
+    margin: auto;
+}
+
+.image-box > img {
+    max-width: 100%;
+    height: auto;
+}
+
+.now1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.now2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.now3 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.calendar {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 400px;
+    display: table;
+    table-layout: fixed;
+}
+
+.th, td {
+    display: table-cell;
+}
+
