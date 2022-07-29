@@ -40,9 +40,13 @@ h1 {
     margin-bottom: 20px;
 }
 
+.table {
+    display: flex;
+    justify-content: center;
+}
+
 .calendar {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     text-align: center;
     width: 400px;
     display: table;
@@ -52,4 +56,28 @@ h1 {
 .th, td {
     display: table-cell;
 }
+
+
+.buttonNext1 {
+    background-color: transparent;
+    border: transparent;
+    font-size: 30px;
+    font-weight: lighter;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+
+}
+
+.buttonPre1 {
+    background-color: transparent;
+    border: transparent;
+    font-size: 30px;
+    font-weight: lighter;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+
+}
+
 
